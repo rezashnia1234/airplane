@@ -86,6 +86,28 @@ h1 img.logo{
     height: 46px;
     color: transparent;
 }
+/*/////////////////////////////////////////////////////////////////////////////////////////////////\\\\\*/
+#ContactForm label,#ContactForm input.form_input {
+    direction: rtl !important;
+}
+#ContactForm input.form_submit {
+    font-family: IRANSans !important;
+}
+h2.page_title {
+    direction: rtl;
+}
+blockquote,h3 {direction: rtl;}
+.logo_text {
+    direction: rtl;
+    text-align: left;
+	font-size:18px;
+	line-height: 50px;
+}
+.logo_text span {
+    font-size: 15px;
+}
+
+
 
 
 
