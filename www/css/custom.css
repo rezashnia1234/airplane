@@ -51,9 +51,14 @@ fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td{fo
 }
 .sidebar-nav ul li{text-align:right;direction:rtl;}
 .sidebar-nav  ul li span{text-align:right;direction:rtl;float:right;padding: 16px 20px 0 0;}
-
-
-
+h1 img.logo{
+    width: 14%;
+    float: right;
+    max-width: 40%;
+    position: absolute;
+    right: 2%;
+    top: 15%;
+}
 
 
 

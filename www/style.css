@@ -114,7 +114,7 @@ blockquote span{
 /*===============================================*/	
 h1, h2, h3, h4, h5, h6{
 	font-weight:300;
-	letter-spacing:-0.5px;
+	/* letter-spacing:-0.5px; */
 	color:#232323;
 	padding:0 0 20px 0;
 	margin:0;
@@ -146,7 +146,7 @@ h2.page_title{
 	padding:10px 5%;
 	margin:0px 0 10px 0;
 	display:inline-block;
-	letter-spacing:0.5px;
+	/* letter-spacing:0.5px; */
 	background-color:#59cf84;
 	color:#fff;
 }
@@ -159,7 +159,7 @@ h2.blog_title{
 	margin:0px 5% 15px 5%;
 	border-bottom:1px #f0f0f0 solid;
 	display:inline-block;
-	letter-spacing:-0.5px;
+	/* letter-spacing:-0.5px; */
 }
 h3.page_subtitle{
 	width:95%;
@@ -171,7 +171,7 @@ h3.page_subtitle{
 	background-color:#12d584;
 	color:#ffffff;
 	display:inline-block;
-	letter-spacing:-0.5px;
+	/* letter-spacing:-0.5px; */
 }
 a.backtoshop{
 	width:10%;
@@ -201,7 +201,7 @@ font-weight:300;
 padding:5px 0 0 0;
 margin:0px;
 float:left;
-letter-spacing:-1px;
+/* letter-spacing:-1px; */
 }
 .homenavbar h1 span{
 font-weight:700;
@@ -573,7 +573,7 @@ padding:10px 0 0 0;
 font-size:10px;
 font-weight:700;
 color:#ffffff;
-letter-spacing:0.5px;
+/* letter-spacing:0.5px; */
 }
 
 .subnav_header{
@@ -807,7 +807,7 @@ padding:0px;
 margin:0;
 font-size:25px;
 font-weight:800;
-letter-spacing:-1px;
+/* letter-spacing:-1px; */
 color:#fff;
 line-height:25px;
 } 
@@ -1081,7 +1081,7 @@ padding:10px 0;
 display:block;
 font-weight:300;
 font-size:14px;
-letter-spacing:0.5px;
+/* letter-spacing:0.5px; */
 background-color:#12d584;
 color:#ffffff;
 padding:10px 0;
@@ -1527,7 +1527,7 @@ color:#ffffff;
 background-color:#12d584;
 font-size:12px;
 font-weight:900;
-letter-spacing:0.5px;
+/* letter-spacing:0.5px; */
 }
 a.item_delete{
 width:10%;
@@ -1653,7 +1653,7 @@ float:right;
 color:#1b1b25;
 font-size:12px;
 font-weight:900;
-letter-spacing:0.5px;
+/* letter-spacing:0.5px; */
 }
 .checkout_select{
 padding:10px 0 20px 5%;
@@ -2212,7 +2212,7 @@ div.cs-select:focus {outline: none;}
 	font-size:16px;
 	font-family: 'Source Sans Pro', sans-serif;
 	font-weight:400;
-	letter-spacing:-0.5px;
+	/* letter-spacing:-0.5px; */
 	color:#999999;
 }
 .selector_overlay_register .cs-select span, .selector_overlay_accountnr .cs-select span, .selector_overlay_paymentm .cs-select span, .selector_overlay_acctype .cs-select span{
