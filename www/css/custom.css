@@ -62,10 +62,13 @@ h1 img.logo{
 .slider-caption h2{direction:rtl;}
 .slider-description{color:transparent !important;height:0;}
 .panel-right {
-    background-color: #10cf7f;
+    background-color: #001435;
     background-image: url(../images/47480222-cloud-wallpaper.jpg);
     background-size: cover;
     background-position: bottom center;
+}
+.homepage {
+    background-color: #001435;
 }
 .sidebar-nav ul li {
     width: 100%;
@@ -106,7 +109,15 @@ blockquote,h3 {direction: rtl;}
 .logo_text span {
     font-size: 15px;
 }
-
+/*/////////////////////////////////////////////////////////////////////////////////////////////////\\\\\*/
+.post_details {direction: rtl;}
+.post_single,.post_single p {
+    direction: rtl;
+    text-align: justify;
+}
+h2.blog_title {
+    direction: rtl;
+}
 
 
 

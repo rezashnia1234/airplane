@@ -67,11 +67,13 @@ myApp.onPageInit('blog', function (page) {
 		x=4;
 		$('.post_entry:lt('+x+')').show();
 		$('#loadMore').on('click', function() {
-			x= (x+1 <= size_li) ? x+1 : size_li;
-			$('.post_entry:lt('+x+')').show();
-			if(x === size_li){
-				$('#loadMore').hide();
-				$('#showLess').show();
+			for (conter_temp = 0; conter_temp < 3; conter_temp++) {
+				x= (x+1 <= size_li) ? x+1 : size_li;
+				$('.post_entry:lt('+x+')').show();
+				if(x === size_li){
+					$('#loadMore').hide();
+					$('#showLess').show();
+				}
 			}
 		});
 
