@@ -38,7 +38,7 @@ fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td{fo
 }
 .homenavbar {
 	width: 95%;
-	padding: 5px 5% 0 0;
+	/*padding: 5px 5% 0 0;*/
 }
 .swiper-container {
 	border-bottom-left-radius:0% 0%;
@@ -53,16 +53,39 @@ fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td{fo
 .sidebar-nav  ul li span{text-align:right;direction:rtl;float:right;padding: 16px 20px 0 0;}
 h1 img.logo{
     width: 14%;
-    float: right;
+    float: left;
     max-width: 40%;
     position: absolute;
-    right: 2%;
-    top: 15%;
+    left: 3%;
+    top: 27%;/*15%;*/
 }
 .slider-caption h2{direction:rtl;}
 .slider-description{color:transparent !important;height:0;}
-
-
+.panel-right {
+    background-color: #10cf7f;
+    background-image: url(../images/47480222-cloud-wallpaper.jpg);
+    background-size: cover;
+    background-position: bottom center;
+}
+.sidebar-nav ul li {
+    width: 100%;
+    list-style: none;
+    padding: 0;
+    margin: 0 0 1px 0;
+    display: block;
+    float: left;
+    clear: both;
+    text-align: left;
+    background: rgba(29,32,45,0.7);
+    background: -webkit-linear-gradient(to right, #1d202d, #26d087);
+    background: -o-linear-gradient(to right, #1d202d, #26d087);
+    background: -moz-linear-gradient(to right, #1d202d, #26d087);
+    /* background: linear-gradient(to right, #1d202d, #26d087); */
+}
+.li_placeholder {
+    height: 46px;
+    color: transparent;
+}
 
 
 
