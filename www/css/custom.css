@@ -60,6 +60,7 @@ h1 img.logo{
     top: 15%;
 }
 .slider-caption h2{direction:rtl;}
+.slider-description{color:transparent !important;height:0;}
 
 
 
