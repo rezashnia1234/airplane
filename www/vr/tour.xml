@@ -73,7 +73,22 @@
 		loadscene(get(startscene), null, MERGE);
 		if(startactions !== null, startactions() );
 	</action>
-
+	
+	<plugin name="BTN-open-map"
+			url="skin/open.png"
+			align="lefttop" x="0" y="49"
+			keep="true"
+			maskchildren="false"
+			scalechildren="false"
+	        handcursor="true"
+			zorder="110"
+			width="132"
+			height="70"
+			blendmode="normal"
+			onhover=""
+			onout=""
+			onclick="openurl('../index.html',_self);"
+	        />
 
 	
 	<scene name="scene_A32_sphere" title="Airbus A320" onstart="" havevrimage="true" thumburl="panos/A32_sphere.tiles/thumb.jpg" lat="" lng="" heading="">
