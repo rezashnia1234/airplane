@@ -4,7 +4,7 @@ var myApp = new Framework7({
     // Enable templates auto precompilation
     precompileTemplates: true,
     // Enabled pages rendering using Template7
-	swipeBackPage: false,
+	swipeBackPage: true,
 	swipePanelOnlyClose: true,
 	pushState: true,
     template7Pages: true
@@ -43,6 +43,9 @@ $$(document).on('pageInit', function (e) {
 				});
 			} );
 		})();
+		
+		// var mc = new Hammer(document.getElementById("pages_maincontent"));
+		// mc.on("swiperight", function(ev) {parent.history.back();});
 })
 myApp.onPageInit('music', function (page) {
 		  audiojs.events.ready(function() {
