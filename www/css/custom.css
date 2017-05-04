@@ -87,6 +87,16 @@ h1 img.logo{
     background-size: cover;
     background-position: bottom center;
 }
+.wallpaper_placeholder{
+    background-image: url(../images/47480222-cloud-wallpaper.jpg);
+	width:1px;
+	height:1px;
+	position:absolute;
+	left:0;
+	bottom:0;
+	z-index:-1;
+	overflow:hidden;
+}
 .homepage {
     /* background-color: #001435; */
 /* background: #000046; */
