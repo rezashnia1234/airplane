@@ -66,7 +66,8 @@
 				var options = {
 				  "duration"       :  700, // in milliseconds (ms), default 400
 				  "iosdelay"       :  100, // ms to wait for the iOS webview to update before animation kicks in, default 60
-				  "androiddelay"   :  100
+				  "androiddelay"   :  100,
+				  "href"			: href //"adab.html"
 				};
 				window.plugins.nativepagetransitions.fade(
 				  options,
