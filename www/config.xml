@@ -87,7 +87,7 @@
 	<!-- <plugin spec="https://github.com/nchutchind/cordova-plugin-streaming-media.git" source="git" /> -->
 	<!-- <plugin spec="https://github.com/nchutchind/Vitamio-Cordova-Plugin.git" source="git" /> -->
 	<plugin name="com.telerik.plugins.nativepagetransitions" source="npm" />
-
+	
     <!-- Define app icon      -->
     <icon src="images/splash/icon.png" platform="android" />
     <icon src="images/splash/ios.png" platform="ios" />
