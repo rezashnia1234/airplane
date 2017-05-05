@@ -64,28 +64,9 @@
 
     <!-- Third party plugins -->
     <!-- A list of available plugins are available at https://build.phonegap.com/plugins -->
-    <!-- 
-        <gap:plugin name="com.phonegap.plugins.barcodescanner" />
-		<gap:plugin name="com.kumbe.phonegap.zoom.zoomcontrol" version="0.1.5" />
-    -->	
 
 	<preference name="android-build-tool" value="gradle" />
-	<!--<plugin spec="https://github.com/phonegap-build/PushPlugin.git" source="git" />-->
-	<!--<plugin spec="https://github.com/phonegap/phonegap-plugin-push.git" source="git" >-->
-	<!--
-	<preference name="android-build-tool" value="gradle" />
-	<plugin name="phonegap-plugin-push" spec="1.8.0" source="npm">
-		<param name="SENDER_ID" value="804625540618" />
-	</plugin>
-	-->
-	<!--
-    <plugin spec="https://github.com/phonegap/phonegap-plugin-push.git" source="git" />
-	<preference name="android-build-tool" value="gradle" />
-	<plugin name="phonegap-plugin-push" spec="1.8.0" source="npm">
-		<param name="SENDER_ID" value="804625540618" />
-	</plugin>
-	-->
-	<!--<plugin spec="https://github.com/Paldom/UniqueDeviceID.git" source="git" />-->
+
 	<!--
 	<plugin spec="https://github.com/apache/cordova-plugin-statusbar.git " source="git" />
 	<gap:config-file platform="ios" parent="UIStatusBarHidden">
@@ -105,7 +86,7 @@
 	<!--<gap:plugin name="com.hutchind.cordova.plugins.streamingmedia"  source="plugins.cordova.io" />-->
 	<!-- <plugin spec="https://github.com/nchutchind/cordova-plugin-streaming-media.git" source="git" /> -->
 	<!-- <plugin spec="https://github.com/nchutchind/Vitamio-Cordova-Plugin.git" source="git" /> -->
-
+	<plugin name="com.telerik.plugins.nativepagetransitions" source="npm" />
 
     <!-- Define app icon      -->
     <icon src="images/splash/icon.png" platform="android" />
